@@ -135,7 +135,7 @@
 			<Point><coordinates>-1.777552,51.483821,0</coordinates></Point>
 			<styleUrl>#start_star</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='5473707761a28'>
+		<Placemark id='5473707761a28'>
 			<name>1.0.1</name>
 			<Point><coordinates>-1.779496,51.484359,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -154,13 +154,13 @@
 			<name>1.0.4</name>
 			<Point><coordinates>-1.786013,51.485229,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='5473707761b58'>
 			<name>1.0.5</name>
 			<Point><coordinates>-1.788343,51.48507000000001,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='5473707761ba0'>
+		<Placemark id='5473707761ba0'>
 			<name>1.0.6</name>
 			<Point><coordinates>-1.790326,51.485563,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -179,13 +179,13 @@
 			<name>1.0.9</name>
 			<Point><coordinates>-1.797209,51.484837,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='5473707761dc2'>
 			<name>1.1.0</name>
 			<Point><coordinates>-1.798771,51.48386100000001,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='5473707761e11'>
+		<Placemark id='5473707761e11'>
 			<name>1.1.1</name>
 			<Point><coordinates>-1.800604,51.48297100000001,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -204,13 +204,13 @@
 			<name>1.1.4</name>
 			<Point><coordinates>-1.805845,51.480326,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='5473707761f67'>
 			<name>1.1.5</name>
 			<Point><coordinates>-1.807486,51.479293,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='5473707761fb4'>
+		<Placemark id='5473707761fb4'>
 			<name>1.1.6</name>
 			<Point><coordinates>-1.809038,51.478162,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -229,13 +229,13 @@
 			<name>1.1.9</name>
 			<Point><coordinates>-1.812495,51.474297,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='54737077620fc'>
 			<name>1.2.0</name>
 			<Point><coordinates>-1.813643,51.473113,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='5473707762161'>
+		<Placemark id='5473707762161'>
 			<name>1.2.1</name>
 			<Point><coordinates>-1.814839,51.471881,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -254,13 +254,13 @@
 			<name>1.2.4</name>
 			<Point><coordinates>-1.818579,51.468276,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='54737077622e6'>
 			<name>1.2.5</name>
 			<Point><coordinates>-1.819646,51.46695,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='5473707762338'>
+		<Placemark id='5473707762338'>
 			<name>1.2.6</name>
 			<Point><coordinates>-1.820563,51.46565799999999,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -279,13 +279,13 @@
 			<name>1.2.9</name>
 			<Point><coordinates>-1.823038,51.46169999999999,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='54737077624d4'>
 			<name>1.3.0</name>
 			<Point><coordinates>-1.822632,51.460334,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='5473707762537'>
+		<Placemark id='5473707762537'>
 			<name>1.3.1</name>
 			<Point><coordinates>-1.822314,51.458958,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -304,13 +304,13 @@
 			<name>1.3.4</name>
 			<Point><coordinates>-1.820993,51.45505800000001,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='5473707762737'>
 			<name>1.3.5</name>
 			<Point><coordinates>-1.820702,51.453632,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='547370776278f'>
+		<Placemark id='547370776278f'>
 			<name>1.3.6</name>
 			<Point><coordinates>-1.819809,51.452255,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -329,13 +329,13 @@
 			<name>1.3.9</name>
 			<Point><coordinates>-1.818484,51.448004,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='54737077628c2'>
 			<name>1.4.0</name>
 			<Point><coordinates>-1.818568,51.44660999999999,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='547370776290d'>
+		<Placemark id='547370776290d'>
 			<name>1.4.1</name>
 			<Point><coordinates>-1.818618,51.44518200000001,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -354,13 +354,13 @@
 			<name>1.4.4</name>
 			<Point><coordinates>-1.819064,51.440773,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='5473707762a41'>
 			<name>1.4.5</name>
 			<Point><coordinates>-1.819725,51.43934400000001,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='5473707762a9b'>
+		<Placemark id='5473707762a9b'>
 			<name>1.4.6</name>
 			<Point><coordinates>-1.820427,51.437992,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -384,13 +384,13 @@
 			<name>1.4.9</name>
 			<Point><coordinates>-1.822772,51.433697,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='5473707762c3e'>
 			<name>1.5.0</name>
 			<Point><coordinates>-1.823372,51.43221,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='5473707762c87'>
+		<Placemark id='5473707762c87'>
 			<name>1.5.1</name>
 			<Point><coordinates>-1.823997,51.43078599999999,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -409,13 +409,13 @@
 			<name>1.5.4</name>
 			<Point><coordinates>-1.826021,51.42636100000001,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='547370776309f'>
 			<name>1.5.5</name>
 			<Point><coordinates>-1.826674,51.425037,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='547370776316b'>
+		<Placemark id='547370776316b'>
 			<name>1.5.6</name>
 			<Point><coordinates>-1.82733,51.42370200000001,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -434,13 +434,13 @@
 			<name>1.5.9</name>
 			<Point><coordinates>-1.829784,51.419818,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='54737077632b4'>
 			<name>1.6.0</name>
 			<Point><coordinates>-1.830191,51.418489,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
 		</Placemark>
-		<!-- <Placemark id='5473707763313'>
+		<Placemark id='5473707763313'>
 			<name>1.6.1</name>
 			<Point><coordinates>-1.830287,51.417163,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
@@ -459,7 +459,7 @@
 			<name>1.6.4</name>
 			<Point><coordinates>-1.830605,51.412959,0</coordinates></Point>
 			<styleUrl>#mile_stone</styleUrl>
-		</Placemark> -->
+		</Placemark>
 		<Placemark id='547370776343b'>
 			<name>GSW Stg 1 End</name>
 			<description><![CDATA[<ins style='text-decoration:none !important; font-size:medium;'>

@@ -2,41 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>KmlFile</name>
-	<Style id="sn_triangle">
+	<Style id="sn_open-diamond">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_star">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_star0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_star</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_shaded_dot">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_man">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
 			</Icon>
 		</IconStyle>
 		<ListStyle>
@@ -52,16 +22,56 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<Style id="sh_triangle">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_triangle">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_open-diamond">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_open-diamond4</styleUrl>
+			<styleUrl>#sn_open-diamond12</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_open-diamond2</styleUrl>
+			<styleUrl>#sh_open-diamond7</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_triangle0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_triangle0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_open-diamond0">
 		<IconStyle>
 			<scale>1.4</scale>
@@ -72,9 +82,39 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_triangle0">
+	<StyleMap id="msn_triangle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_triangle3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_man">
 		<IconStyle>
 			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_open-diamond1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_triangle1">
+		<IconStyle>
+			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
 			</Icon>
@@ -92,49 +132,19 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_man">
+	<StyleMap id="msn_open-diamond0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_man0</styleUrl>
+			<styleUrl>#sn_open-diamond5</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_man1</styleUrl>
+			<styleUrl>#sh_open-diamond12</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_man">
+	<Style id="sn_triangle2">
 		<IconStyle>
 			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_star">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_man0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_triangle">
-		<IconStyle>
-			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
 			</Icon>
@@ -142,24 +152,14 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_open-diamond">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin">
+	<StyleMap id="msn_open-diamond1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_open-diamond</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#sh_open-diamond6</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_open-diamond0">
@@ -172,11 +172,51 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_shaded_dot">
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_open-diamond2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_triangle3">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_open-diamond3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_triangle2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
 			</Icon>
 		</IconStyle>
 		<ListStyle>
@@ -192,186 +232,6 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_open-diamond1">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_open-diamond2">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_man0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_triangle0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_man1">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_open-diamond0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond8</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond9</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_open-diamond1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond7</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_open-diamond2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_star0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_star</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_star0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_open-diamond2">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_man0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_man</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_man</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_man1">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_triangle">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_triangle2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_triangle5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_open-diamond3">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_open-diamond4">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_open-diamond5">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_triangle0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_triangle6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_triangle</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_triangle1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_triangle0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_triangle2</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sn_star">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -382,27 +242,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_open-diamond3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_open-diamond4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_open-diamond3">
+	<Style id="sn_open-diamond2">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -412,217 +252,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_triangle2">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_open-diamond5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_open-diamond6">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_open-diamond4">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_triangle2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_triangle3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_triangle1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_triangle1">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_open-diamond7">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_triangle2">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_triangle3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_triangle1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_triangle6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_triangle3">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_triangle4">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_open-diamond6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_open-diamond5">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_triangle5">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_triangle4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_triangle</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_triangle3</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_triangle3">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_shaded_dot">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_shaded_dot</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_shaded_dot</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_open-diamond8">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_star0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_triangle5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_triangle5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_triangle4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -642,97 +272,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_triangle6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_triangle4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_triangle0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_open-diamond6">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_open-diamond7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_open-diamond8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_triangle6">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_open-diamond9">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_star0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_man1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_man1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_man0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_open-diamond10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond8</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_open-diamond7">
+	<Style id="sn_open-diamond3">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -752,7 +292,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_open-diamond8">
+	<Style id="sn_open-diamond4">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
@@ -762,17 +302,17 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_open-diamond9">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_open-diamond9">
+	<StyleMap id="msn_man">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_man0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_man</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_open-diamond2">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -782,9 +322,19 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_open-diamond10">
+	<Style id="sn_triangle4">
 		<IconStyle>
 			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_open-diamond3">
+		<IconStyle>
+			<scale>1.4</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
 			</Icon>
@@ -792,7 +342,87 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_open-diamond10">
+	<StyleMap id="msn_triangle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_triangle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_open-diamond4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_open-diamond4">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_man">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_triangle1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_triangle4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_open-diamond5">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_triangle5">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_triangle2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_triangle9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_open-diamond6">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -812,1778 +442,3066 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<Style id="sh_open-diamond7">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_open-diamond5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_man0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_man</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_man1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_triangle7">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_open-diamond8">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_man0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_open-diamond5">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_triangle6">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_open-diamond9">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_open-diamond6">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_open-diamond7">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_man0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_triangle3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_triangle7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_triangle4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_triangle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_star">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_star</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_star</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_open-diamond8">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_open-diamond10">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_open-diamond6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_open-diamond11">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_open-diamond9">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_triangle5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_triangle1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_triangle6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_triangle5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_triangle8">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_triangle7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_triangle2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_open-diamond10">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_triangle8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_triangle6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_open-diamond12">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_open-diamond7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_star">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_triangle7">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_open-diamond11">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_triangle8">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_man1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_man1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_man0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_open-diamond8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_open-diamond12">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_triangle9">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_triangle9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_triangle8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_triangle7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_open-diamond9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_man1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_man1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_open-diamond10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_open-diamond11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_open-diamond12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_triangle9">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Folder>
 		<name>STAGEDRAFT</name>
 		<open>1</open>
 		<Placemark>
-			<name>Herepath or Green St</name>
+			<name>Stage 3 Start</name>
 			<LookAt>
-				<longitude>-1.822022801675783</longitude>
-				<latitude>51.4370080939594</latitude>
+				<longitude>-1.851106960711184</longitude>
+				<latitude>51.3527806145993</latitude>
 				<altitude>0</altitude>
-				<heading>-0.006157312721033586</heading>
-				<tilt>32.89375985198319</tilt>
-				<range>471.2077424251718</range>
+				<heading>-0.005466222162133449</heading>
+				<tilt>30.3218783045999</tilt>
+				<range>176.0947617147346</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m__triangle</styleUrl>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.821005912788278,51.43667833359919,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Avebury Loop Start</name>
-			<LookAt>
-				<longitude>-1.822678543527432</longitude>
-				<latitude>51.43658088460057</latitude>
-				<altitude>0</altitude>
-				<heading>-0.007729889545853483</heading>
-				<tilt>30.91610664158088</tilt>
-				<range>209.4204011797908</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_star0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.82183171683883,51.43638940080225,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.0.1</name>
-			<LookAt>
-				<longitude>-1.822678543527432</longitude>
-				<latitude>51.43658088460057</latitude>
-				<altitude>0</altitude>
-				<heading>-0.007729889545853483</heading>
-				<tilt>30.91610664158088</tilt>
-				<range>209.4204011797908</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.823810187142337,51.43605064284966,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.0.2</name>
-			<LookAt>
-				<longitude>-1.825344103917625</longitude>
-				<latitude>51.43622715563927</latitude>
-				<altitude>0</altitude>
-				<heading>-0.009814138716473998</heading>
-				<tilt>30.91615595689274</tilt>
-				<range>220.1066268075689</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.825948026261279,51.43566960098344,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.0.3</name>
-			<LookAt>
-				<longitude>-1.827436754851214</longitude>
-				<latitude>51.43591001964284</latitude>
-				<altitude>0</altitude>
-				<heading>3.359878330097782e-011</heading>
-				<tilt>30.91558258426288</tilt>
-				<range>230.501517417316</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.828039126186536,51.43525864554312,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.0.4</name>
-			<LookAt>
-				<longitude>-1.829176583730889</longitude>
-				<latitude>51.43527679272155</latitude>
-				<altitude>0</altitude>
-				<heading>-0.001360382733632225</heading>
-				<tilt>30.91500103205207</tilt>
-				<range>239.1108500997231</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.830133876599684,51.43466181264165,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.0.5</name>
-			<LookAt>
-				<longitude>-1.831450132853826</longitude>
-				<latitude>51.43478864287812</latitude>
-				<altitude>0</altitude>
-				<heading>-0.003138075874289144</heading>
-				<tilt>30.91503680915639</tilt>
-				<range>246.8636675818801</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.832523521299423,51.43439304541856,0</coordinates>
+				<coordinates>-1.852055289491827,51.35290100731481,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.834277042829992</longitude>
-				<latitude>51.43408126198363</latitude>
+				<longitude>-1.850697947478551</longitude>
+				<latitude>51.35298887259964</latitude>
 				<altitude>0</altitude>
-				<heading>-0.00534842932544057</heading>
-				<tilt>30.91508119487995</tilt>
-				<range>256.4819299575944</range>
+				<heading>-0.005146778892014068</heading>
+				<tilt>30.32131911250044</tilt>
+				<range>176.3390420276408</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
+			<styleUrl>#msn_open-diamond4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.833542561661237,51.43420077498301,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.0.6</name>
-			<LookAt>
-				<longitude>-1.834277042829992</longitude>
-				<latitude>51.43408126198363</latitude>
-				<altitude>0</altitude>
-				<heading>-0.00534842932544057</heading>
-				<tilt>30.91508119487995</tilt>
-				<range>256.4819299575944</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.834664439974995,51.43383639317021,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.0.7</name>
-			<LookAt>
-				<longitude>-1.836376485397755</longitude>
-				<latitude>51.43359922554363</latitude>
-				<altitude>0</altitude>
-				<heading>-0.006989950326055375</heading>
-				<tilt>30.91513761857907</tilt>
-				<range>268.7087642561151</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.836697147543022,51.43309346523217,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.0.8</name>
-			<LookAt>
-				<longitude>-1.838692166787657</longitude>
-				<latitude>51.43238224281682</latitude>
-				<altitude>0</altitude>
-				<heading>-0.008800539253537102</heading>
-				<tilt>30.91518596555445</tilt>
-				<range>279.1853445905833</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.838677333132093,51.43237102999915,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.0.9</name>
-			<LookAt>
-				<longitude>-1.840218053610222</longitude>
-				<latitude>51.43190080259686</latitude>
-				<altitude>0</altitude>
-				<heading>-0.00999357524441675</heading>
-				<tilt>30.91520646907673</tilt>
-				<range>283.6283633580502</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.840675958794862,51.43165645481231,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.1.0</name>
-			<LookAt>
-				<longitude>-1.842269692241306</longitude>
-				<latitude>51.43101350969288</latitude>
-				<altitude>0</altitude>
-				<heading>-0.01159766855062306</heading>
-				<tilt>30.91522341007611</tilt>
-				<range>287.2994172257753</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.842732901886897,51.43095242690136,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.1.1</name>
-			<LookAt>
-				<longitude>-1.844109148695352</longitude>
-				<latitude>51.43046025756765</latitude>
-				<altitude>0</altitude>
-				<heading>-0.01303584959699492</heading>
-				<tilt>30.91522429131984</tilt>
-				<range>287.4903731869381</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.844944488968835,51.43053364786978,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.1.2</name>
-			<LookAt>
-				<longitude>-1.846964361797061</longitude>
-				<latitude>51.42990016234142</latitude>
-				<altitude>0</altitude>
-				<heading>-0.01526818823612348</heading>
-				<tilt>30.91519500711084</tilt>
-				<range>281.1446106334998</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.847303712466186,51.43025980933203,0</coordinates>
+				<coordinates>-1.851836479994027,51.35289228182199,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.848512447215968</longitude>
-				<latitude>51.42939975287242</latitude>
+				<longitude>-1.850697947478551</longitude>
+				<latitude>51.35298887259964</latitude>
 				<altitude>0</altitude>
-				<heading>-0.0164785441126159</heading>
-				<tilt>30.91517450186418</tilt>
-				<range>276.7012038929321</range>
+				<heading>-0.005146778892014068</heading>
+				<tilt>30.32131911250044</tilt>
+				<range>176.3390420276408</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
+			<styleUrl>#msn_open-diamond4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.848475879445046,51.430017047173,0</coordinates>
+				<coordinates>-1.851692549374114,51.35283436020949,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>1a.1.3</name>
+			<name>3.0.1</name>
 			<LookAt>
-				<longitude>-1.848512447215968</longitude>
-				<latitude>51.42939975287242</latitude>
+				<longitude>-1.850697947478551</longitude>
+				<latitude>51.35298887259964</latitude>
 				<altitude>0</altitude>
-				<heading>-0.0164785441126159</heading>
-				<tilt>30.91517450186418</tilt>
-				<range>276.7012038929321</range>
+				<heading>-0.005146778892014068</heading>
+				<tilt>30.32131911250044</tilt>
+				<range>176.3390420276408</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
+			<styleUrl>#msn_open-diamond4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.849365450766971,51.42975096144453,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.1.4</name>
-			<LookAt>
-				<longitude>-1.850740328634775</longitude>
-				<latitude>51.42914701359316</latitude>
-				<altitude>0</altitude>
-				<heading>-0.018220383674871</heading>
-				<tilt>30.91519115410457</tilt>
-				<range>280.3096941280504</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.851488480118261,51.42911768735178,0</coordinates>
+				<coordinates>-1.849893793414763,51.35253709659597,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.853335989773992</longitude>
-				<latitude>51.42841735545672</latitude>
+				<longitude>-1.848646749934804</longitude>
+				<latitude>51.35233365094614</latitude>
 				<altitude>0</altitude>
-				<heading>-0.0202497451645971</heading>
-				<tilt>30.91519659131777</tilt>
-				<range>281.4879081779508</range>
+				<heading>-0.003544778698285666</heading>
+				<tilt>30.32085754188352</tilt>
+				<range>198.1611367393749</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
+			<styleUrl>#msn_open-diamond4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.852569986096914,51.42879082664373,0</coordinates>
+				<coordinates>-1.84832774302004,51.35225587326053,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>1a.1.5</name>
+			<name>3.0.2</name>
 			<LookAt>
-				<longitude>-1.853335989773992</longitude>
-				<latitude>51.42841735545672</latitude>
+				<longitude>-1.848646749934804</longitude>
+				<latitude>51.35233365094614</latitude>
 				<altitude>0</altitude>
-				<heading>-0.0202497451645971</heading>
-				<tilt>30.91519659131777</tilt>
-				<range>281.4879081779508</range>
+				<heading>-0.003544778698285666</heading>
+				<tilt>30.32085754188352</tilt>
+				<range>198.1611367393749</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
+			<styleUrl>#msn_open-diamond4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.853551381304953,51.42860869820913,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.1.6</name>
-			<LookAt>
-				<longitude>-1.855455426140602</longitude>
-				<latitude>51.42824896009563</latitude>
-				<altitude>0</altitude>
-				<heading>-0.02190677233885455</heading>
-				<tilt>30.91520749779628</tilt>
-				<range>283.8512929777918</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.855874276478705,51.42822367495862,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Turn Left (S)</name>
-			<LookAt>
-				<longitude>-1.857319080513866</longitude>
-				<latitude>51.42790925273261</latitude>
-				<altitude>0</altitude>
-				<heading>-0.02336381535618978</heading>
-				<tilt>30.91521589227727</tilt>
-				<range>285.6703387174065</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_triangle0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.856614276765063,51.42820119969296,0</coordinates>
+				<coordinates>-1.847772132564766,51.35209459902722,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.856800794202608</longitude>
-				<latitude>51.42822493275691</latitude>
+				<longitude>-1.847072460356015</longitude>
+				<latitude>51.35160797136206</latitude>
 				<altitude>0</altitude>
-				<heading>-0.02295857998883664</heading>
-				<tilt>30.34675784855644</tilt>
-				<range>176.4531283498897</range>
+				<heading>-0.002315268370704361</heading>
+				<tilt>30.32084429304279</tilt>
+				<range>195.2394124568716</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond1</styleUrl>
+			<styleUrl>#msn_open-diamond4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.856639955936202,51.42810931241889,0</coordinates>
+				<coordinates>-1.847323577110216,51.35187538659875,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.847072460356015</longitude>
+				<latitude>51.35160797136206</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002315268370704361</heading>
+				<tilt>30.32084429304279</tilt>
+				<range>195.2394124568716</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.84693428183467,51.35156983265468,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.0.3</name>
+			<LookAt>
+				<longitude>-1.847072460356015</longitude>
+				<latitude>51.35160797136206</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002315268370704361</heading>
+				<tilt>30.32084429304279</tilt>
+				<range>195.2394124568716</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.846524228182217,51.35095813946487,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.0.4</name>
+			<LookAt>
+				<longitude>-1.845818285433769</longitude>
+				<latitude>51.35025115784087</latitude>
+				<altitude>0</altitude>
+				<heading>-0.00133576600066471</heading>
+				<tilt>30.32082311963268</tilt>
+				<range>190.5700927310406</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.845873144572151,51.3496545058501,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.0.5</name>
+			<LookAt>
+				<longitude>-1.845548480436505</longitude>
+				<latitude>51.34886588482171</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001125068341647496</heading>
+				<tilt>30.32084399626773</tilt>
+				<range>195.173959623089</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.845216885453453,51.34826090844038,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.0.6</name>
+			<LookAt>
+				<longitude>-1.844535557286359</longitude>
+				<latitude>51.34723801457788</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0003340411949076277</heading>
+				<tilt>30.32084815702711</tilt>
+				<range>196.0915277949347</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.844460895566192,51.34695565169997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.843204605114675</longitude>
+				<latitude>51.34614333748583</latitude>
+				<altitude>0</altitude>
+				<heading>0.0007053508135226467</heading>
+				<tilt>30.32084979677927</tilt>
+				<range>196.4531316642315</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.844013980741824,51.34646921600778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.843204605114675</longitude>
+				<latitude>51.34614333748583</latitude>
+				<altitude>0</altitude>
+				<heading>0.0007053508135226467</heading>
+				<tilt>30.32084979677927</tilt>
+				<range>196.4531316642315</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.843512670114804,51.34614917460167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.0.7</name>
+			<LookAt>
+				<longitude>-1.843204605114675</longitude>
+				<latitude>51.34614333748583</latitude>
+				<altitude>0</altitude>
+				<heading>0.0007053508135226467</heading>
+				<tilt>30.32084979677927</tilt>
+				<range>196.4531316642315</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.843050452877409,51.34592977416503,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.841614916463409</longitude>
+				<latitude>51.34541298965065</latitude>
+				<altitude>0</altitude>
+				<heading>0.00194678054710151</heading>
+				<tilt>30.32085556050425</tilt>
+				<range>197.724189090016</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.841994629484635,51.34559642012192,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.0.8</name>
+			<LookAt>
+				<longitude>-1.841614916463409</longitude>
+				<latitude>51.34541298965065</latitude>
+				<altitude>0</altitude>
+				<heading>0.00194678054710151</heading>
+				<tilt>30.32085556050425</tilt>
+				<range>197.724189090016</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.840975228932493,51.3453770482133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.0.9</name>
+			<LookAt>
+				<longitude>-1.839450328262907</longitude>
+				<latitude>51.34502762868774</latitude>
+				<altitude>0</altitude>
+				<heading>0.003637156048863703</heading>
+				<tilt>30.32085134681224</tilt>
+				<range>196.7949643238457</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.838671803627429,51.34515250919596,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.839450328262907</longitude>
+				<latitude>51.34502762868774</latitude>
+				<altitude>0</altitude>
+				<heading>0.003637156048863703</heading>
+				<tilt>30.32085134681224</tilt>
+				<range>196.7949643238457</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.838410416768891,51.34513793862246,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.839450328262907</longitude>
+				<latitude>51.34502762868774</latitude>
+				<altitude>0</altitude>
+				<heading>0.003637156048863703</heading>
+				<tilt>30.32085134681224</tilt>
+				<range>196.7949643238457</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.838208324140889,51.3451007958916,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Turn Right (S)</name>
+			<LookAt>
+				<longitude>-1.838815153765259</longitude>
+				<latitude>51.34470095490352</latitude>
+				<altitude>0</altitude>
+				<heading>-1.004598162782609</heading>
+				<tilt>30.3205563409178</tilt>
+				<range>255.1500802760801</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_triangle7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.83809721963865,51.34514545925045,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.1.0</name>
+			<LookAt>
+				<longitude>-1.838815153765259</longitude>
+				<latitude>51.34470095490352</latitude>
+				<altitude>0</altitude>
+				<heading>-1.004598162782609</heading>
+				<tilt>30.3205563409178</tilt>
+				<range>255.1500802760801</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.838753309875429,51.34401979935892,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.839348276207561</longitude>
+				<latitude>51.342581407053</latitude>
+				<altitude>0</altitude>
+				<heading>-1.005014432426552</heading>
+				<tilt>30.3200400312544</tilt>
+				<range>264.8205498268638</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.839016422989216,51.34366097868733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.839348276207561</longitude>
+				<latitude>51.342581407053</latitude>
+				<altitude>0</altitude>
+				<heading>-1.005014432426552</heading>
+				<tilt>30.3200400312544</tilt>
+				<range>264.8205498268638</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.839385720582781,51.34311879315789,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.1.1</name>
+			<LookAt>
+				<longitude>-1.839438270768245</longitude>
+				<latitude>51.34316671827603</latitude>
+				<altitude>0</altitude>
+				<heading>-1.005084749017327</heading>
+				<tilt>30.32003660678658</tilt>
+				<range>264.0653505951055</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.83929876810942,51.34261444522762,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.839420090134766</longitude>
+				<latitude>51.34138091392349</latitude>
+				<altitude>0</altitude>
+				<heading>-1.005070486308325</heading>
+				<tilt>30.3200434439377</tilt>
+				<range>265.5731586316311</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.83921938449187,51.34228541874765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.839420090134766</longitude>
+				<latitude>51.34138091392349</latitude>
+				<altitude>0</altitude>
+				<heading>-1.005070486308325</heading>
+				<tilt>30.3200434439377</tilt>
+				<range>265.5731586316311</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.838683716326466,51.3415279333849,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.1.2</name>
+			<LookAt>
+				<longitude>-1.838597460624695</longitude>
+				<latitude>51.34115050027542</latitude>
+				<altitude>0</altitude>
+				<heading>-1.004428114178246</heading>
+				<tilt>30.32003953975099</tilt>
+				<range>264.7121566312025</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.838438601405565,51.34129022965364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.1.3</name>
+			<LookAt>
+				<longitude>-1.837380448188987</longitude>
+				<latitude>51.33995578451647</latitude>
+				<altitude>0</altitude>
+				<heading>-1.003477789157951</heading>
+				<tilt>30.32001217415269</tilt>
+				<range>258.6771555817268</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.83740515514271,51.33997700236593,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.83712728022915</longitude>
+				<latitude>51.33898236039944</latitude>
+				<altitude>0</altitude>
+				<heading>0.1828700317947125</heading>
+				<tilt>42.28933692151077</tilt>
+				<range>96.86968835602222</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.837068466310405,51.33949525820405,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.83712728022915</longitude>
+				<latitude>51.33898236039944</latitude>
+				<altitude>0</altitude>
+				<heading>0.1828700317947125</heading>
+				<tilt>42.28933692151077</tilt>
+				<range>96.86968835602222</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.836786197415358,51.3389034244515,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Turn Right (SW)</name>
 			<LookAt>
-				<longitude>-1.857319080513866</longitude>
-				<latitude>51.42790925273261</latitude>
+				<longitude>-1.83712728022915</longitude>
+				<latitude>51.33898236039944</latitude>
 				<altitude>0</altitude>
-				<heading>-0.02336381535618978</heading>
-				<tilt>30.91521589227727</tilt>
-				<range>285.6703387174065</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_triangle0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.856028848688617,51.42731838842689,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.1.7</name>
-			<LookAt>
-				<longitude>-1.856830913185635</longitude>
-				<latitude>51.4276220096088</latitude>
-				<altitude>0</altitude>
-				<heading>-0.02298212030251914</heading>
-				<tilt>30.34619053264398</tilt>
-				<range>175.4853995831585</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.8561924198781,51.42729467838494,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.857541560192046</longitude>
-				<latitude>51.4267785896494</latitude>
-				<altitude>0</altitude>
-				<heading>-0.02353771726553161</heading>
-				<tilt>30.34619122717865</tilt>
-				<range>175.6384473177272</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.857641668151429,51.42669380407197,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.1.8</name>
-			<LookAt>
-				<longitude>-1.857541560192046</longitude>
-				<latitude>51.4267785896494</latitude>
-				<altitude>0</altitude>
-				<heading>-0.02353771726553161</heading>
-				<tilt>30.34619122717865</tilt>
-				<range>175.6384473177272</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.857887284287568,51.4263598066139,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.857991559806718</longitude>
-				<latitude>51.42540792513071</latitude>
-				<altitude>0</altitude>
-				<heading>-0.02388953191210346</heading>
-				<tilt>30.34621161697966</tilt>
-				<range>180.1315800116027</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.85793430831522,51.42508608790956,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.857991559806718</longitude>
-				<latitude>51.42540792513071</latitude>
-				<altitude>0</altitude>
-				<heading>-0.02388953191210346</heading>
-				<tilt>30.34621161697966</tilt>
-				<range>180.1315800116027</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.85831553633833,51.42569296037236,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.1.9</name>
-			<LookAt>
-				<longitude>-1.857816966180601</longitude>
-				<latitude>51.42563522984275</latitude>
-				<altitude>0</altitude>
-				<heading>-0.023753036313552</heading>
-				<tilt>30.34620714671173</tilt>
-				<range>179.1465128714187</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.858063728512659,51.42502032749327,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Turn Left (S)</name>
-			<LookAt>
-				<longitude>-1.858031471192934</longitude>
-				<latitude>51.42414257072286</latitude>
-				<altitude>0</altitude>
-				<heading>-0.02392074203528528</heading>
-				<tilt>30.24807076786925</tilt>
-				<range>163.2766297340226</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_triangle6</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.858387198711715,51.42482996415977,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.858083542531804</longitude>
-				<latitude>51.42430768937421</latitude>
-				<altitude>0</altitude>
-				<heading>-0.02396145157828362</heading>
-				<tilt>30.24807054283247</tilt>
-				<range>163.2269078487291</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.858500634606343,51.42482496689807,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.858083542531804</longitude>
-				<latitude>51.42430768937421</latitude>
-				<altitude>0</altitude>
-				<heading>-0.02396145157828362</heading>
-				<tilt>30.24807054283247</tilt>
-				<range>163.2269078487291</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.85830649076428,51.42452691828621,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.858083542531804</longitude>
-				<latitude>51.42430768937421</latitude>
-				<altitude>0</altitude>
-				<heading>-0.02396145157828362</heading>
-				<tilt>30.24807054283247</tilt>
-				<range>163.2269078487291</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.858328497564142,51.42442864293268,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.2.0</name>
-			<LookAt>
-				<longitude>-1.858092228456114</longitude>
-				<latitude>51.42435205851258</latitude>
-				<altitude>0</altitude>
-				<heading>-0.02396824144513135</heading>
-				<tilt>30.34621650659353</tilt>
-				<range>181.2090585455439</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.857976028837397,51.42385015719171,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.2.1</name>
-			<LookAt>
-				<longitude>-1.85776443906979</longitude>
-				<latitude>51.4227336904735</latitude>
-				<altitude>0</altitude>
-				<heading>0.0005211446065159731</heading>
-				<tilt>45.26086846344871</tilt>
-				<range>102.1520015730675</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.857530739243299,51.4225031528675,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.857428083985945</longitude>
-				<latitude>51.42164637932144</latitude>
-				<altitude>0</altitude>
-				<heading>0.0007840889471667148</heading>
-				<tilt>45.26086614171469</tilt>
-				<range>101.7881964765228</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.857627936072445,51.42222926749093,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.2.2</name>
-			<LookAt>
-				<longitude>-1.857496405752329</longitude>
-				<latitude>51.42118010341572</latitude>
-				<altitude>0</altitude>
-				<heading>0.000730680459305624</heading>
-				<tilt>45.26086886367025</tilt>
-				<range>102.2147135471596</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.857255514422785,51.42110079047022,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.2.3</name>
-			<LookAt>
-				<longitude>-1.857181534219572</longitude>
-				<latitude>51.42017867162917</latitude>
-				<altitude>0</altitude>
-				<heading>0.0009768324606711214</heading>
-				<tilt>45.26087263672105</tilt>
-				<range>102.8059335193974</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.85680224988814,51.41980833164452,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.2.4</name>
-			<LookAt>
-				<longitude>-1.855731202034473</longitude>
-				<latitude>51.41899606811685</latitude>
-				<altitude>0</altitude>
-				<heading>0.002110607208602386</heading>
-				<tilt>45.48134956187432</tilt>
-				<range>103.6038366950158</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.855488895492432,51.41870712265407,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.854497909816552</longitude>
-				<latitude>51.41793744936289</latitude>
-				<altitude>0</altitude>
-				<heading>0.003074701869459824</heading>
-				<tilt>45.48134003971805</tilt>
-				<range>102.1174207132587</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.855049725955965,51.41840557858863,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.854497909816552</longitude>
-				<latitude>51.41793744936289</latitude>
-				<altitude>0</altitude>
-				<heading>0.003074701869459824</heading>
-				<tilt>45.48134003971805</tilt>
-				<range>102.1174207132587</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.854945938163944,51.41817694124833,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.854497909816552</longitude>
-				<latitude>51.41793744936289</latitude>
-				<altitude>0</altitude>
-				<heading>0.003074701869459824</heading>
-				<tilt>45.48134003971805</tilt>
-				<range>102.1174207132587</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.854472865693717,51.41806556996913,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.2.5</name>
-			<LookAt>
-				<longitude>-1.854497909816552</longitude>
-				<latitude>51.41793744936289</latitude>
-				<altitude>0</altitude>
-				<heading>0.003074701869459824</heading>
-				<tilt>45.48134003971805</tilt>
-				<range>102.1174207132587</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.854029725576076,51.41775983022244,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.852994693632354</longitude>
-				<latitude>51.41702546873503</latitude>
-				<altitude>0</altitude>
-				<heading>0.004249779711661674</heading>
-				<tilt>40.16847054679826</tilt>
-				<range>80.44999312586721</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.853141892364887,51.41735219566225,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.2.6</name>
-			<LookAt>
-				<longitude>-1.852994693632354</longitude>
-				<latitude>51.41702546873503</latitude>
-				<altitude>0</altitude>
-				<heading>0.004249779711661674</heading>
-				<tilt>40.16847054679826</tilt>
-				<range>80.44999312586721</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.85274488630539,51.41673077964603,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.852506099156156</longitude>
-				<latitude>51.41568704703016</latitude>
-				<altitude>0</altitude>
-				<heading>0.004631717485513509</heading>
-				<tilt>40.16788540543584</tilt>
-				<range>124.9694126728591</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.852358363419492,51.4158315350282,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.2.7</name>
-			<LookAt>
-				<longitude>-1.852399210195613</longitude>
-				<latitude>51.41565989727914</latitude>
-				<altitude>0</altitude>
-				<heading>0.004715271830667013</heading>
-				<tilt>40.16848460684962</tilt>
-				<range>82.87629714337838</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.852421939129109,51.41539890729457,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.851943715648483</longitude>
-				<latitude>51.41420536925671</latitude>
-				<altitude>0</altitude>
-				<heading>8.243003811015478e-012</heading>
-				<tilt>46.05104733941586</tilt>
-				<range>201.8605980278922</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond4</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.85257633809681,51.41467967953271,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.851943715648483</longitude>
-				<latitude>51.41420536925671</latitude>
-				<altitude>0</altitude>
-				<heading>8.243003811015478e-012</heading>
-				<tilt>46.05104733941586</tilt>
-				<range>201.8605980278922</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond4</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.85243604657572,51.41429942873252,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Cross A4</name>
-			<description>Cross road, through that gate and down the path towards West Kennet Long Barrow.</description>
-			<LookAt>
-				<longitude>-1.851315905165803</longitude>
-				<latitude>51.41409908836613</latitude>
-				<altitude>0</altitude>
-				<heading>-0.5276400281376482</heading>
-				<tilt>45.00020134914937</tilt>
-				<range>129.0433459797178</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_triangle4</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.852157451169725,51.41433890293103,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.851315905165803</longitude>
-				<latitude>51.41409908836613</latitude>
-				<altitude>0</altitude>
-				<heading>-0.5276400281376482</heading>
-				<tilt>45.00020134914937</tilt>
-				<range>129.0433459797178</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond4</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.852285477006157,51.41417891131058,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Gate to W Kennet</name>
-			<LookAt>
-				<gx:ViewerOptions>
-					<gx:option enabled="0" name="historicalimagery"></gx:option>
-					<gx:option enabled="0" name="sunlight"></gx:option>
-					<gx:option name="streetview"></gx:option>
-				</gx:ViewerOptions>
-				<longitude>-1.851927492608712</longitude>
-				<latitude>51.41401148666791</latitude>
-				<altitude>0</altitude>
-				<heading>177.2972349260329</heading>
-				<tilt>83.33102193002894</tilt>
-				<range>27.43567642521484</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_man0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.851936746965213,51.41421204942657,150.295403741004</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.2.8</name>
-			<LookAt>
-				<longitude>-1.85195343258361</longitude>
-				<latitude>51.41418737895133</latitude>
-				<altitude>0</altitude>
-				<heading>-0.5281383697144082</heading>
-				<tilt>45.00047214299337</tilt>
-				<range>130.2894629778661</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond4</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.851893792273249,51.41414732258328,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.851289537610004</longitude>
-				<latitude>51.41342093722465</latitude>
-				<altitude>0</altitude>
-				<heading>-0.5276194276302634</heading>
-				<tilt>43.4652163443868</tilt>
-				<range>239.7426939702588</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.851668487011572,51.41343552781515,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.851289537610004</longitude>
-				<latitude>51.41342093722465</latitude>
-				<altitude>0</altitude>
-				<heading>-0.5276194276302634</heading>
-				<tilt>43.4652163443868</tilt>
-				<range>239.7426939702588</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.851425263021164,51.41296381325599,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.2.9</name>
-			<LookAt>
-				<longitude>-1.851161639912281</longitude>
-				<latitude>51.41307966564569</latitude>
-				<altitude>0</altitude>
-				<heading>-0.527519440979939</heading>
-				<tilt>45.00015317751466</tilt>
-				<range>162.8227194882935</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.85142718703709,51.41277364440774,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.850730975020523</longitude>
-				<latitude>51.41237284687208</latitude>
-				<altitude>0</altitude>
-				<heading>-0.5271828192673291</heading>
-				<tilt>37.48211041058751</tilt>
-				<range>160.9065168348405</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.851545069178249,51.41239717919285,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.850730975020523</longitude>
-				<latitude>51.41237284687208</latitude>
-				<altitude>0</altitude>
-				<heading>-0.5271828192673291</heading>
-				<tilt>37.48211041058751</tilt>
-				<range>160.9065168348405</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.851491051114547,51.41222303442149,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.850730975020523</longitude>
-				<latitude>51.41237284687208</latitude>
-				<altitude>0</altitude>
-				<heading>-0.5271828192673291</heading>
-				<tilt>37.48211041058751</tilt>
-				<range>160.9065168348405</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.850802223358502,51.412257748599,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.850730975020523</longitude>
-				<latitude>51.41237284687208</latitude>
-				<altitude>0</altitude>
-				<heading>-0.5271828192673291</heading>
-				<tilt>37.48211041058751</tilt>
-				<range>160.9065168348405</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.850700830669967,51.41212213330716,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.850730975020523</longitude>
-				<latitude>51.41237284687208</latitude>
-				<altitude>0</altitude>
-				<heading>-0.5271828192673291</heading>
-				<tilt>37.48211041058751</tilt>
-				<range>160.9065168348405</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.850650379537585,51.41226458135236,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>W Kennet path</name>
-			<description>The Great Stones Way continues East.   West Kennet Long Barrow is 1/4 mile South down the path.</description>
-			<LookAt>
-				<longitude>-1.847175869368568</longitude>
-				<latitude>51.41120208656976</latitude>
-				<altitude>0</altitude>
-				<heading>-0.5241685434063373</heading>
-				<tilt>22.72335988048321</tilt>
-				<range>827.1069236449288</range>
+				<heading>0.1828700317947125</heading>
+				<tilt>42.28933692151077</tilt>
+				<range>96.86968835602222</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_triangle5</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.851021170692795,51.41201521397822,0</coordinates>
+				<coordinates>-1.836839114415759,51.33887439863093,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>1a.3.0</name>
+			<name>3.1.4</name>
 			<LookAt>
-				<longitude>-1.850730975020523</longitude>
-				<latitude>51.41237284687208</latitude>
+				<longitude>-1.83712728022915</longitude>
+				<latitude>51.33898236039944</latitude>
 				<altitude>0</altitude>
-				<heading>-0.5271828192673291</heading>
-				<tilt>37.48211041058751</tilt>
-				<range>160.9065168348405</range>
+				<heading>0.1828700317947125</heading>
+				<tilt>42.28933692151077</tilt>
+				<range>96.86968835602222</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.837030079620329,51.33877852816043,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Turn Left (S)</name>
+			<LookAt>
+				<longitude>-1.837694713805007</longitude>
+				<latitude>51.33814906328119</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001020659582464031</heading>
+				<tilt>46.26452250164522</tilt>
+				<range>100.7555580320792</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_triangle2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.837634889061418,51.33856279114784,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.837564000327775</longitude>
+				<latitude>51.33784750226403</latitude>
+				<altitude>0</altitude>
+				<heading>-3.240408744875308e-010</heading>
+				<tilt>46.26457655731952</tilt>
+				<range>101.3915339539172</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_open-diamond0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.850424688090414,51.41232561744315,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>West Kennet Long Barrow</name>
-			<LookAt>
-				<longitude>-1.849551432720678</longitude>
-				<latitude>51.40880230896986</latitude>
-				<altitude>0</altitude>
-				<heading>-0.5262608512462039</heading>
-				<tilt>37.48034686318979</tilt>
-				<range>186.7394459294888</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_shaded_dot</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.850485333628995,51.40865802303539,0</coordinates>
+				<coordinates>-1.837668603988438,51.33854477079694,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.847615490799067</longitude>
-				<latitude>51.41280025128412</latitude>
+				<longitude>-1.837564000327775</longitude>
+				<latitude>51.33784750226403</latitude>
 				<altitude>0</altitude>
-				<heading>-0.0007572081157974597</heading>
-				<tilt>25.11550634632737</tilt>
-				<range>504.6335809568764</range>
+				<heading>-3.240408744875308e-010</heading>
+				<tilt>46.26457655731952</tilt>
+				<range>101.3915339539172</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond3</styleUrl>
+			<styleUrl>#msn_open-diamond0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.84904827346317,51.41254793030088,0</coordinates>
+				<coordinates>-1.837492863726765,51.33815700591527,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.847615490799067</longitude>
-				<latitude>51.41280025128412</latitude>
+				<longitude>-1.837564000327775</longitude>
+				<latitude>51.33784750226403</latitude>
 				<altitude>0</altitude>
-				<heading>-0.0007572081157974597</heading>
-				<tilt>25.11550634632737</tilt>
-				<range>504.6335809568764</range>
+				<heading>-3.240408744875308e-010</heading>
+				<tilt>46.26457655731952</tilt>
+				<range>101.3915339539172</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond3</styleUrl>
+			<styleUrl>#msn_open-diamond0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.848514282482716,51.41248182864049,0</coordinates>
+				<coordinates>-1.837524239440812,51.33778312216739,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>1a.3.1</name>
+			<name>3.1.5</name>
 			<LookAt>
-				<longitude>-1.846726205070412</longitude>
-				<latitude>51.41301120793772</latitude>
+				<longitude>-1.837724225493201</longitude>
+				<latitude>51.33770341592097</latitude>
 				<altitude>0</altitude>
-				<heading>-6.208281896275659e-005</heading>
-				<tilt>25.11550505130151</tilt>
-				<range>504.2938823968201</range>
+				<heading>-0.00012510882452153</heading>
+				<tilt>46.26452860283957</tilt>
+				<range>101.6954053613662</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_open-diamond3</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.848159780005483,51.41250771731934,0</coordinates>
+				<coordinates>-1.837627153986398,51.33764160507128,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.847615490799067</longitude>
-				<latitude>51.41280025128412</latitude>
+				<longitude>-1.836664537566642</longitude>
+				<latitude>51.33719420899022</latitude>
 				<altitude>0</altitude>
-				<heading>-0.0007572081157974597</heading>
-				<tilt>25.11550634632737</tilt>
-				<range>504.6335809568764</range>
+				<heading>0.0007023373563312434</heading>
+				<tilt>43.61214276603443</tilt>
+				<range>116.4240769325089</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_open-diamond3</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.846602432292335,51.41266998900062,0</coordinates>
+				<coordinates>-1.837699577321247,51.33741958781644,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>1a.3.2</name>
+			<name>Turn Left (ESE)</name>
 			<LookAt>
-				<longitude>-1.847615490799067</longitude>
-				<latitude>51.41280025128412</latitude>
+				<longitude>-1.836664537566642</longitude>
+				<latitude>51.33719420899022</latitude>
 				<altitude>0</altitude>
-				<heading>-0.0007572081157974597</heading>
-				<tilt>25.11550634632737</tilt>
-				<range>504.6335809568764</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond3</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.845940140962247,51.41240153477438,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.84515738642387</longitude>
-				<latitude>51.41262192548132</latitude>
-				<altitude>0</altitude>
-				<heading>0.001164149966688405</heading>
-				<tilt>25.11551092814975</tilt>
-				<range>505.8354300583072</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond3</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.844220962029823,51.41226432695743,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.3.3</name>
-			<LookAt>
-				<longitude>-1.842892584344303</longitude>
-				<latitude>51.41231834728148</latitude>
-				<altitude>0</altitude>
-				<heading>0.0003892267359607178</heading>
-				<tilt>44.99971024740668</tilt>
-				<range>103.6729076330903</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond10</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.843680973068068,51.41239421391229,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Bridleway</name>
-			<LookAt>
-				<gx:ViewerOptions>
-					<gx:option enabled="0" name="historicalimagery"></gx:option>
-					<gx:option enabled="0" name="sunlight"></gx:option>
-					<gx:option name="streetview"></gx:option>
-				</gx:ViewerOptions>
-				<longitude>-1.843558161983156</longitude>
-				<latitude>51.41245768763353</latitude>
-				<altitude>0</altitude>
-				<heading>-93.46476297346433</heading>
-				<tilt>77.82257832766665</tilt>
-				<range>11.89541103894914</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_man1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.843444434084578,51.41246316131896,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Continue East on path</name>
-			<description>Do not turn right (South) down road</description>
-			<LookAt>
-				<longitude>-1.843169564054721</longitude>
-				<latitude>51.41235654287286</latitude>
-				<altitude>0</altitude>
-				<heading>0.0002443193758154094</heading>
-				<tilt>44.99963314978073</tilt>
-				<range>102.266591148197</range>
+				<heading>0.0007023373563312434</heading>
+				<tilt>43.61214276603443</tilt>
+				<range>116.4240769325089</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_triangle1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.84326172110762,51.41242132734699,0</coordinates>
+				<coordinates>-1.8376627413165,51.33740650297257,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.842657743770896</longitude>
-				<latitude>51.41227820714592</latitude>
+				<longitude>-1.836664537566642</longitude>
+				<latitude>51.33719420899022</latitude>
 				<altitude>0</altitude>
-				<heading>0.0005727905514628147</heading>
-				<tilt>44.9997107731755</tilt>
-				<range>103.7556682393313</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond10</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.843068771774429,51.4123789559202,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.3.4</name>
-			<LookAt>
-				<longitude>-1.842048704103247</longitude>
-				<latitude>51.41317064642495</latitude>
-				<altitude>0</altitude>
-				<heading>0.003594036918757729</heading>
-				<tilt>25.8279269536252</tilt>
-				<range>425.2825377846762</range>
+				<heading>0.0007023373563312434</heading>
+				<tilt>43.61214276603443</tilt>
+				<range>116.4240769325089</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_open-diamond3</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.841470673820679,51.41218622532506,0</coordinates>
+				<coordinates>-1.83736695385029,51.33729365278437,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.839469584917048</longitude>
-				<latitude>51.41156336431445</latitude>
+				<longitude>-1.836664537566642</longitude>
+				<latitude>51.33719420899022</latitude>
 				<altitude>0</altitude>
-				<heading>0.003064806546613942</heading>
-				<tilt>43.5380160557078</tilt>
-				<range>214.9648023804247</range>
+				<heading>0.0007023373563312434</heading>
+				<tilt>43.61214276603443</tilt>
+				<range>116.4240769325089</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond5</styleUrl>
+			<styleUrl>#msn_open-diamond3</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.840279279694375,51.41203284278737,0</coordinates>
+				<coordinates>-1.836628910998287,51.33716548719949,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>1a.3.5</name>
+			<name>3.1.6</name>
 			<LookAt>
-				<longitude>-1.83982027473995</longitude>
-				<latitude>51.41190749511479</latitude>
+				<longitude>-1.836492045866969</longitude>
+				<latitude>51.33717431901139</latitude>
 				<altitude>0</altitude>
-				<heading>0.002790694343777434</heading>
-				<tilt>43.53849988254378</tilt>
-				<range>214.9648012446597</range>
+				<heading>0.000837025662360798</heading>
+				<tilt>46.26452644589504</tilt>
+				<range>101.3631431698719</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond5</styleUrl>
+			<styleUrl>#msn_open-diamond3</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.839328833577945,51.41177625036676,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.83778904361547</longitude>
-				<latitude>51.41082982355479</latitude>
-				<altitude>0</altitude>
-				<heading>0.004378386311652605</heading>
-				<tilt>40.97489648344309</tilt>
-				<range>186.9416983106246</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond5</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.838284334857889,51.41145501132376,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.3.6</name>
-			<LookAt>
-				<longitude>-1.837805802389169</longitude>
-				<latitude>51.41072701193397</latitude>
-				<altitude>0</altitude>
-				<heading>0.004365287744768085</heading>
-				<tilt>40.9748964834293</tilt>
-				<range>186.9416967988358</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond5</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.837947283756281,51.41081545121725,0</coordinates>
+				<coordinates>-1.835924746405911,51.33713272734006,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.837270497711514</longitude>
-				<latitude>51.40960302348799</latitude>
+				<longitude>-1.835113921014403</longitude>
+				<latitude>51.33626102486841</latitude>
 				<altitude>0</altitude>
-				<heading>0.0001601184788352015</heading>
-				<tilt>46.19203898739657</tilt>
-				<range>201.9288840513989</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond5</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.837390634786572,51.41013382679973,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.3.7</name>
-			<LookAt>
-				<longitude>-1.837270497711514</longitude>
-				<latitude>51.40960302348799</latitude>
-				<altitude>0</altitude>
-				<heading>0.0001601184788352015</heading>
-				<tilt>46.19203898739657</tilt>
-				<range>201.9288840513989</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond5</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.837317988498277,51.40947648034011,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.837475349517002</longitude>
-				<latitude>51.40943742232578</latitude>
-				<altitude>0</altitude>
-				<heading>-141.9810630348773</heading>
-				<tilt>46.19161341028566</tilt>
-				<range>97.70569559016231</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond5</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.837288215898512,51.40907740713451,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.836192006208271</longitude>
-				<latitude>51.40884039076832</latitude>
-				<altitude>0</altitude>
-				<heading>0.001003091724439936</heading>
-				<tilt>46.1920368454951</tilt>
-				<range>201.5985401727164</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond5</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.837026743428996,51.40895396964002,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.836192006208271</longitude>
-				<latitude>51.40884039076832</latitude>
-				<altitude>0</altitude>
-				<heading>0.001003091724439936</heading>
-				<tilt>46.1920368454951</tilt>
-				<range>201.5985401727164</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond5</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.836826748191115,51.40888371105505,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.836192006208271</longitude>
-				<latitude>51.40884039076832</latitude>
-				<altitude>0</altitude>
-				<heading>0.001003091724439936</heading>
-				<tilt>46.1920368454951</tilt>
-				<range>201.5985401727164</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond5</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.836336796799717,51.4085400589528,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.3.8</name>
-			<LookAt>
-				<longitude>-1.836192006208271</longitude>
-				<latitude>51.40884039076832</latitude>
-				<altitude>0</altitude>
-				<heading>0.001003091724439936</heading>
-				<tilt>46.1920368454951</tilt>
-				<range>201.5985401727164</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond5</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.836100591431192,51.40844333400143,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.83480536030503</longitude>
-				<latitude>51.40855133026076</latitude>
-				<altitude>0</altitude>
-				<heading>-3.208019886300228e-005</heading>
-				<tilt>45.85991175084938</tilt>
-				<range>209.3876527976882</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond8</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.83572350159016,51.40833764245234,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.83480536030503</longitude>
-				<latitude>51.40855133026076</latitude>
-				<altitude>0</altitude>
-				<heading>-3.208019886300228e-005</heading>
-				<tilt>45.85991175084938</tilt>
-				<range>209.3876527976882</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond8</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.834893229237969,51.40824981407539,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Turn Left (N)</name>
-			<description>Then cross bridge.</description>
-			<LookAt>
-				<longitude>-1.83480536030503</longitude>
-				<latitude>51.40855133026076</latitude>
-				<altitude>0</altitude>
-				<heading>-3.208019886300228e-005</heading>
-				<tilt>45.85991175084938</tilt>
-				<range>209.3876527976882</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_triangle3</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.834854502269877,51.40829896402464,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.83480536030503</longitude>
-				<latitude>51.40855133026076</latitude>
-				<altitude>0</altitude>
-				<heading>-3.208019886300228e-005</heading>
-				<tilt>45.85991175084938</tilt>
-				<range>209.3876527976882</range>
+				<heading>0.001913104348350343</heading>
+				<tilt>43.61214584269179</tilt>
+				<range>116.9205411873353</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_open-diamond7</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.834849731401707,51.40857747874051,0</coordinates>
+				<coordinates>-1.835278697310601,51.33703589131432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.1.7</name>
+			<LookAt>
+				<longitude>-1.834771942094491</longitude>
+				<latitude>51.33645373624888</latitude>
+				<altitude>0</altitude>
+				<heading>0.002180131893260709</heading>
+				<tilt>43.61214343778892</tilt>
+				<range>116.5324754350677</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.834474591170328,51.33618016457126,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.1.8</name>
+			<LookAt>
+				<longitude>-1.832865293047106</longitude>
+				<latitude>51.33522338610853</latitude>
+				<altitude>0</altitude>
+				<heading>0.00366888095537003</heading>
+				<tilt>43.61214165395601</tilt>
+				<range>116.2446276718606</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.832673105745952,51.33523261820231,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.833725105178159</longitude>
-				<latitude>51.40826551103631</latitude>
+				<longitude>-1.831898592865492</longitude>
+				<latitude>51.33458672450077</latitude>
 				<altitude>0</altitude>
-				<heading>-173.4984055882561</heading>
-				<tilt>45.85954653472131</tilt>
-				<range>208.4808429013898</range>
+				<heading>-0.0002503223954788752</heading>
+				<tilt>45.94737615731238</tilt>
+				<range>100.8251073136834</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond</styleUrl>
+			<styleUrl>#msn_open-diamond7</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.834660320430459,51.40886888137793,0</coordinates>
+				<coordinates>-1.831887942914331,51.33476715971748,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Bridge and field margin</name>
+			<name>Fork Right (SSE)</name>
+			<LookAt>
+				<longitude>-1.831898592865492</longitude>
+				<latitude>51.33458672450077</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002503223954788752</heading>
+				<tilt>45.94737615731238</tilt>
+				<range>100.8251073136834</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_triangle4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.831862860905151,51.33476330853171,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.831898592865492</longitude>
+				<latitude>51.33458672450077</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002503223954788752</heading>
+				<tilt>45.94737615731238</tilt>
+				<range>100.8251073136834</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.831803871164509,51.33454709245741,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.831898592865492</longitude>
+				<latitude>51.33458672450077</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002503223954788752</heading>
+				<tilt>45.94737615731238</tilt>
+				<range>100.8251073136834</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.83183353970977,51.33433571851044,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Turn Right (W)</name>
+			<LookAt>
+				<longitude>-1.831898592865492</longitude>
+				<latitude>51.33458672450077</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002503223954788752</heading>
+				<tilt>45.94737615731238</tilt>
+				<range>100.8251073136834</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_triangle4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.831880553907594,51.3343102854928,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.1.9</name>
+			<LookAt>
+				<longitude>-1.832203373923693</longitude>
+				<latitude>51.3346268902523</latitude>
+				<altitude>0</altitude>
+				<heading>0.004185717588278813</heading>
+				<tilt>43.61214507851805</tilt>
+				<range>116.7972274189544</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.832296441228946,51.33428448329195,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.833454512842201</longitude>
+				<latitude>51.33394638631208</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001465191240449434</heading>
+				<tilt>45.94745173715471</tilt>
+				<range>128.731468178462</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.833238571701332,51.33419356867935,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.2.0</name>
+			<LookAt>
+				<longitude>-1.834027855407325</longitude>
+				<latitude>51.33386978197322</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001912856878123648</heading>
+				<tilt>45.94738968167662</tilt>
+				<range>102.9195680834428</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.834379264231445,51.33387673216411,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.2.1</name>
+			<LookAt>
+				<longitude>-1.835866480390299</longitude>
+				<latitude>51.33305047936904</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003348442966358674</heading>
+				<tilt>45.94747750121218</tilt>
+				<range>132.7214320229065</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.836342930622027,51.33312651017864,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.2.2</name>
+			<LookAt>
+				<longitude>-1.83733574215737</longitude>
+				<latitude>51.33236711687903</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004495622448035519</heading>
+				<tilt>45.94750523068434</tilt>
+				<range>137.0157698542963</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.83814972646172,51.33235554958172,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.2.3</name>
+			<LookAt>
+				<longitude>-1.83910795255864</longitude>
+				<latitude>51.33178664669334</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005879327702350476</heading>
+				<tilt>45.94752778868456</tilt>
+				<range>140.5092193041778</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.840088168177962,51.33163683590039,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.2.4</name>
+			<LookAt>
+				<longitude>-1.84122073454896</longitude>
+				<latitude>51.33077630563432</latitude>
+				<altitude>0</altitude>
+				<heading>-0.007528925014555973</heading>
+				<tilt>45.94752849835736</tilt>
+				<range>140.6191226325419</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.842136183519978,51.33086909387418,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.843397823567712</longitude>
+				<latitude>51.33022639954273</latitude>
+				<altitude>0</altitude>
+				<heading>-0.009228715482944416</heading>
+				<tilt>45.94753538261681</tilt>
+				<range>141.6852564771719</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.843417710761653,51.33042194139183,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.2.5</name>
+			<LookAt>
+				<longitude>-1.843397823567712</longitude>
+				<latitude>51.33022639954273</latitude>
+				<altitude>0</altitude>
+				<heading>-0.009228715482944416</heading>
+				<tilt>45.94753538261681</tilt>
+				<range>141.6852564771719</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.844081455113444,51.33025068094626,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.2.6</name>
+			<LookAt>
+				<longitude>-1.845330275532819</longitude>
+				<latitude>51.32936427435458</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01073748468643924</heading>
+				<tilt>45.94754761722499</tilt>
+				<range>143.5799708611491</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.846060923974858,51.32945544482485,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.846831254549747</longitude>
+				<latitude>51.32899475516469</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002999475799198317</heading>
+				<tilt>45.96962141560046</tilt>
+				<range>100.7275580351261</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847184007432191,51.32894490326968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cross Wilsford Rd (SW)</name>
+			<LookAt>
+				<longitude>-1.847061940972671</longitude>
+				<latitude>51.32857148509146</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001198415518568849</heading>
+				<tilt>45.96962715110815</tilt>
+				<range>101.6154578099746</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_triangle6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847246337857602,51.32892633791261,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.2.7</name>
+			<LookAt>
+				<longitude>-1.847873692655573</longitude>
+				<latitude>51.32867240386072</latitude>
+				<altitude>0</altitude>
+				<heading>-124.0828171456026</heading>
+				<tilt>45.28978120092287</tilt>
+				<range>99.31060685739331</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847886084448814,51.32865243696853,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Turn Left (SSW)</name>
+			<LookAt>
+				<longitude>-1.849696720966862</longitude>
+				<latitude>51.3279887888791</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001423309876512584</heading>
+				<tilt>43.52891834954977</tilt>
+				<range>90.94064726883769</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_triangle3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.849961536386195,51.32808454846904,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.2.8</name>
+			<LookAt>
+				<longitude>-1.849696720966862</longitude>
+				<latitude>51.3279887888791</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001423309876512584</heading>
+				<tilt>43.52891834954977</tilt>
+				<range>90.94064726883769</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.84988112691979,51.32804156344577,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Turn Left (ESE)</name>
+			<LookAt>
+				<longitude>-1.850682666990556</longitude>
+				<latitude>51.32676008000568</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002193062766962204</heading>
+				<tilt>43.52890449049792</tilt>
+				<range>88.70087033854843</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_triangle3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.850348974068522,51.32672924315623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.2.9</name>
+			<LookAt>
+				<longitude>-1.850682666990556</longitude>
+				<latitude>51.32676008000568</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002193062766962204</heading>
+				<tilt>43.52890449049792</tilt>
+				<range>88.70087033854843</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.850418925821012,51.3266949127027,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.849546069892147</longitude>
+				<latitude>51.32609077788766</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001305699524152136</heading>
+				<tilt>43.52890685930843</tilt>
+				<range>89.08369596069409</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.850203100246011,51.32657045305809,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.3.0</name>
+			<LookAt>
+				<longitude>-1.848633722418049</longitude>
+				<latitude>51.32593818916772</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000593416084997607</heading>
+				<tilt>43.52891121491284</tilt>
+				<range>89.7876112958097</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.848374118666702,51.32600669661721,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.846892945079562</longitude>
+				<latitude>51.32543811020138</latitude>
+				<altitude>0</altitude>
+				<heading>0.0007656182759729638</heading>
+				<tilt>43.528926653151</tilt>
+				<range>92.28260202589502</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847552888673174,51.32566131246457,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.3.1</name>
+			<LookAt>
+				<longitude>-1.846892945079562</longitude>
+				<latitude>51.32543811020138</latitude>
+				<altitude>0</altitude>
+				<heading>0.0007656182759729638</heading>
+				<tilt>43.528926653151</tilt>
+				<range>92.28260202589502</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.84634459412247,51.32537399017175,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Turn Right (S)</name>
+			<LookAt>
+				<longitude>-1.846892945079562</longitude>
+				<latitude>51.32543811020138</latitude>
+				<altitude>0</altitude>
+				<heading>0.0007656182759729638</heading>
+				<tilt>43.528926653151</tilt>
+				<range>92.28260202589502</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_triangle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.84642339796724,51.32541786390193,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.3.2</name>
+			<LookAt>
+				<longitude>-1.846796468459528</longitude>
+				<latitude>51.32427087182352</latitude>
+				<altitude>0</altitude>
+				<heading>0.0008409516757657868</heading>
+				<tilt>43.5279291510926</tilt>
+				<range>87.9021333734125</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.846975544365462,51.32400315904515,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.847399718842975</longitude>
+				<latitude>51.32309994586673</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003700041912800082</heading>
+				<tilt>43.52791594922716</tilt>
+				<range>85.76852289715022</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847393070817345,51.3231254149625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.3.3</name>
+			<LookAt>
+				<longitude>-1.847399718842975</longitude>
+				<latitude>51.32309994586673</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003700041912800082</heading>
+				<tilt>43.52791594922716</tilt>
+				<range>85.76852289715022</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847810001110385,51.32276090033428,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.848559168070063</longitude>
+				<latitude>51.32176883687071</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000535147011316762</heading>
+				<tilt>43.5279598125098</tilt>
+				<range>92.85744996610802</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.84859460601675,51.3221381809619,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.848559168070063</longitude>
+				<latitude>51.32176883687071</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000535147011316762</heading>
+				<tilt>43.5279598125098</tilt>
+				<range>92.85744996610802</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.848737966979231,51.32195221836937,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.3.4</name>
+			<LookAt>
+				<longitude>-1.848559168070063</longitude>
+				<latitude>51.32176883687071</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000535147011316762</heading>
+				<tilt>43.5279598125098</tilt>
+				<range>92.85744996610802</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.848802837918272,51.32157184408995,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.848203489265514</longitude>
+				<latitude>51.32057951233664</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002574741689985808</heading>
+				<tilt>43.52865162124919</tilt>
+				<range>204.6696757309035</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.848748673618087,51.32128908873163,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.3.5</name>
+			<LookAt>
+				<longitude>-1.84833311058738</longitude>
+				<latitude>51.32041832313293</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0003586713372300425</heading>
+				<tilt>43.52799640855253</tilt>
+				<range>98.77187730253039</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.848183637110934,51.32019539705411,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.847136672995111</longitude>
+				<latitude>51.3187797338335</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005753336759009113</heading>
+				<tilt>43.52819605566782</tilt>
+				<range>209.4589925161963</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847796564952309,51.31931582836561,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.3.6</name>
+			<LookAt>
+				<longitude>-1.847136672995111</longitude>
+				<latitude>51.3187797338335</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005753336759009113</heading>
+				<tilt>43.52819605566782</tilt>
+				<range>209.4589925161963</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847624591788769,51.31874989484472,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.847622816580429</longitude>
+				<latitude>51.31764351348929</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001258913323085644</heading>
+				<tilt>47.80772837957676</tilt>
+				<range>79.88454147022472</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847342787763674,51.31779466731915,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.3.7</name>
+			<LookAt>
+				<longitude>-1.847598614088178</longitude>
+				<latitude>51.31755151871043</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001070018339320091</heading>
+				<tilt>47.80772802988739</tilt>
+				<range>79.83200916498983</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847479986385807,51.31738654753468,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.8476863388913</longitude>
+				<latitude>51.31642579971889</latitude>
+				<altitude>0</altitude>
+				<heading>-1.10177238500156</heading>
+				<tilt>42.69051096498437</tilt>
+				<range>124.8760631355384</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847868487077125,51.31650241592923,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.3.8</name>
+			<LookAt>
+				<longitude>-1.848187049698726</longitude>
+				<latitude>51.31603340768927</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000566336868931067</heading>
+				<tilt>47.80773653306034</tilt>
+				<range>81.10940753903969</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847956883402354,51.31596178745333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.847103349891874</longitude>
+				<latitude>51.31509627835187</latitude>
+				<altitude>0</altitude>
+				<heading>-1.101317306225629</heading>
+				<tilt>42.69000193060028</tilt>
+				<range>139.1029532404626</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847873065226064,51.31554081858397,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.847103349891874</longitude>
+				<latitude>51.31509627835187</latitude>
+				<altitude>0</altitude>
+				<heading>-1.101317306225629</heading>
+				<tilt>42.69000193060028</tilt>
+				<range>139.1029532404626</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847507630453732,51.31496270686762,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.3.9</name>
+			<LookAt>
+				<longitude>-1.847103349891874</longitude>
+				<latitude>51.31509627835187</latitude>
+				<altitude>0</altitude>
+				<heading>-1.101317306225629</heading>
+				<tilt>42.69000193060028</tilt>
+				<range>139.1029532404626</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847244982831711,51.31461674813756,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.4.0</name>
+			<LookAt>
+				<longitude>-1.846919360903909</longitude>
+				<latitude>51.31361835909075</latitude>
+				<altitude>0</altitude>
+				<heading>-1.101173686443391</heading>
+				<tilt>42.68942057703732</tilt>
+				<range>141.4620207118799</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.846977950055619,51.31320110857948,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.846839212066592</longitude>
+				<latitude>51.31329707857415</latitude>
+				<altitude>0</altitude>
+				<heading>-1.101111124085052</heading>
+				<tilt>42.6894196085897</tilt>
+				<range>141.3030395918985</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847082596132903,51.31422013834805,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bridleway sign</name>
 			<Camera>
 				<gx:ViewerOptions>
 					<gx:option enabled="0" name="historicalimagery"></gx:option>
 					<gx:option enabled="0" name="sunlight"></gx:option>
 					<gx:option name="streetview"></gx:option>
 				</gx:ViewerOptions>
-				<longitude>-1.834802999999938</longitude>
-				<latitude>51.40891800000004</latitude>
-				<altitude>2.500000001303491</altitude>
-				<heading>146.2326003586655</heading>
-				<tilt>96.84964914793163</tilt>
-				<roll>9.478052950761279e-013</roll>
+				<longitude>-1.846970999999948</longitude>
+				<latitude>51.31212699999995</latitude>
+				<altitude>2.500000000080237</altitude>
+				<heading>90.96155133536298</heading>
+				<tilt>92.49728504247398</tilt>
+				<roll>9.859719512536902e-014</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#msn_man</styleUrl>
+			<styleUrl>#msn_man0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.834769471309674,51.40884913464131,160.5040406605903</coordinates>
+				<coordinates>-1.846917067351991,51.31214060581429,102.6029207415036</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Turn Right (ESE)</name>
+			<name>.</name>
 			<LookAt>
-				<longitude>-1.833725105178159</longitude>
-				<latitude>51.40826551103631</latitude>
+				<longitude>-1.847004519530989</longitude>
+				<latitude>51.31219225479255</latitude>
 				<altitude>0</altitude>
-				<heading>-173.4984055882561</heading>
-				<tilt>45.85954653472131</tilt>
-				<range>208.4808429013898</range>
+				<heading>-1.101240158106937</heading>
+				<tilt>42.68942416511852</tilt>
+				<range>142.0510471069641</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_triangle</styleUrl>
+			<styleUrl>#msn_open-diamond5</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.834620538546142,51.40880668717318,0</coordinates>
+				<coordinates>-1.84693667992089,51.31212236971274,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>1a.3.9</name>
+			<name>Leave road, fork left onto bridleway (SSE)</name>
 			<LookAt>
-				<longitude>-1.833725105178159</longitude>
-				<latitude>51.40826551103631</latitude>
+				<longitude>-1.84704227003725</longitude>
+				<latitude>51.3121246712412</latitude>
 				<altitude>0</altitude>
-				<heading>-173.4984055882561</heading>
-				<tilt>45.85954653472131</tilt>
-				<range>208.4808429013898</range>
+				<heading>-1.802420337985375e-011</heading>
+				<tilt>45.17687520941865</tilt>
+				<range>93.10376876760903</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_triangle9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.846877401866305,51.31210909024851,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.4.1</name>
+			<LookAt>
+				<longitude>-1.847004519530989</longitude>
+				<latitude>51.31219225479255</latitude>
+				<altitude>0</altitude>
+				<heading>-1.101240158106937</heading>
+				<tilt>42.68942416511852</tilt>
+				<range>142.0510471069641</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.846773252720937,51.31178000897641,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.846426361782173</longitude>
+				<latitude>51.31088655291767</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003895085411222886</heading>
+				<tilt>46.01135381100152</tilt>
+				<range>101.6118646911724</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.846704976922792,51.31146783078591,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Continue South through trees (do not turn left)</name>
+			<LookAt>
+				<longitude>-1.846426361782173</longitude>
+				<latitude>51.31088655291767</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003895085411222886</heading>
+				<tilt>46.01135381100152</tilt>
+				<range>101.6118646911724</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_triangle8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.846656741683039,51.31138567722405,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.846077152501231</longitude>
+				<latitude>51.3105158029528</latitude>
+				<altitude>0</altitude>
+				<heading>0.0006620818516683332</heading>
+				<tilt>46.01136264420779</tilt>
+				<range>102.9783452374954</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_open-diamond</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.834553065388491,51.40868666467412,0</coordinates>
+				<coordinates>-1.846203488668339,51.31068462560104,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.4.2</name>
+			<LookAt>
+				<longitude>-1.846233027868215</longitude>
+				<latitude>51.31051322302885</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005404123858522364</heading>
+				<tilt>46.01136150073042</tilt>
+				<range>102.8014517114272</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.846110412090344,51.31044844481554,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.833762696027902</longitude>
-				<latitude>51.40845721442864</latitude>
+				<longitude>-1.846744362769086</longitude>
+				<latitude>51.30982293649752</latitude>
 				<altitude>0</altitude>
-				<heading>-173.4984349672485</heading>
-				<tilt>45.85943238503159</tilt>
-				<range>209.3622155831513</range>
+				<heading>0.00455847282880343</heading>
+				<tilt>40.38584469422042</tilt>
+				<range>177.5342237055367</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond9</styleUrl>
+			<styleUrl>#msn_open-diamond12</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.833978339767067,51.40847352202633,0</coordinates>
+				<coordinates>-1.846078811564278,51.31033652165311,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>1a.4.0</name>
+			<name>3.4.3</name>
 			<LookAt>
-				<longitude>-1.830954819358507</longitude>
-				<latitude>51.40828342332836</latitude>
+				<longitude>-1.84728495077017</longitude>
+				<latitude>51.3092640313498</latitude>
 				<altitude>0</altitude>
-				<heading>-0.0004912960592492711</heading>
-				<tilt>33.96402645544435</tilt>
-				<range>267.5973773156086</range>
+				<heading>0.004136523906401257</heading>
+				<tilt>40.3858409944575</tilt>
+				<range>176.8986240486961</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond9</styleUrl>
+			<styleUrl>#msn_open-diamond12</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.832415988766465,51.40812935131738,0</coordinates>
+				<coordinates>-1.8471802168157,51.30912905700185,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>.</name>
+			<name>3.4.4</name>
 			<LookAt>
-				<longitude>-1.830954819358507</longitude>
-				<latitude>51.40828342332836</latitude>
+				<longitude>-1.847835893402195</longitude>
+				<latitude>51.30823988936079</latitude>
 				<altitude>0</altitude>
-				<heading>-0.0004912960592492711</heading>
-				<tilt>33.96402645544435</tilt>
-				<range>267.5973773156086</range>
+				<heading>0.003706493800811199</heading>
+				<tilt>40.3858336514672</tilt>
+				<range>175.6371389522621</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond9</styleUrl>
+			<styleUrl>#msn_open-diamond12</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.831550312520788,51.40799263577136,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>.</name>
-			<LookAt>
-				<longitude>-1.830954819358507</longitude>
-				<latitude>51.40828342332836</latitude>
-				<altitude>0</altitude>
-				<heading>-0.0004912960592492711</heading>
-				<tilt>33.96402645544435</tilt>
-				<range>267.5973773156086</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond9</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.830953224083495,51.40798252236154,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>1a.4.1</name>
-			<LookAt>
-				<longitude>-1.830954819358507</longitude>
-				<latitude>51.40828342332836</latitude>
-				<altitude>0</altitude>
-				<heading>-0.0004912960592492711</heading>
-				<tilt>33.96402645544435</tilt>
-				<range>267.5973773156086</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond9</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.830203199271138,51.40807080803129,0</coordinates>
+				<coordinates>-1.848218664799304,51.30790137437672,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>.</name>
 			<LookAt>
-				<longitude>-1.829223198991401</longitude>
-				<latitude>51.40833553916007</latitude>
+				<longitude>-1.849132226384165</longitude>
+				<latitude>51.30701431210115</latitude>
 				<altitude>0</altitude>
-				<heading>0.0008621577584205433</heading>
-				<tilt>31.69420450629613</tilt>
-				<range>158.0837915705676</range>
+				<heading>0.002694685941949855</heading>
+				<tilt>40.38582764654909</tilt>
+				<range>174.6055281404155</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_open-diamond9</styleUrl>
+			<styleUrl>#msn_open-diamond12</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.830038672259373,51.40811967724263,0</coordinates>
+				<coordinates>-1.84920515475138,51.30683698397142,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Overton Hill Left (N), Honey Street Right (E)</name>
-			<description>To join Stage 1, turn left (N) towards Overton Hill car park.  To join stage 2, turn right (ESE) towards East Kennet.</description>
+			<name>3.4.5</name>
 			<LookAt>
-				<longitude>-1.829089107905896</longitude>
-				<latitude>51.40818957956201</latitude>
+				<longitude>-1.849132226384165</longitude>
+				<latitude>51.30701431210115</latitude>
 				<altitude>0</altitude>
-				<heading>0.0009669647832767626</heading>
-				<tilt>31.69351470588228</tilt>
-				<range>159.2936568596538</range>
+				<heading>0.002694685941949855</heading>
+				<tilt>40.38582764654909</tilt>
+				<range>174.6055281404155</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_triangle2</styleUrl>
+			<styleUrl>#msn_open-diamond12</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.829499404829102,51.40820986621871,0</coordinates>
+				<coordinates>-1.849379734357521,51.30671870548627,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Avebury Loop End</name>
+			<name>.</name>
 			<LookAt>
-				<longitude>-1.829089107905896</longitude>
-				<latitude>51.40818957956201</latitude>
+				<longitude>-1.850582471609245</longitude>
+				<latitude>51.30606269386542</latitude>
 				<altitude>0</altitude>
-				<heading>0.0009669647832767626</heading>
-				<tilt>31.69351470588228</tilt>
-				<range>159.2936568596538</range>
+				<heading>0.001562762315953207</heading>
+				<tilt>40.38581723101579</tilt>
+				<range>172.8162012549727</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.850217702518832,51.30629862139757,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.4.6</name>
+			<LookAt>
+				<longitude>-1.850582471609245</longitude>
+				<latitude>51.30606269386542</latitude>
+				<altitude>0</altitude>
+				<heading>0.001562762315953207</heading>
+				<tilt>40.38581723101579</tilt>
+				<range>172.8162012549727</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.851028320278089,51.30577041157139,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.852048835965924</longitude>
+				<latitude>51.30512569740091</latitude>
+				<altitude>0</altitude>
+				<heading>0.0004182828546040849</heading>
+				<tilt>40.38579895286197</tilt>
+				<range>169.6761119664578</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.85208284376608,51.30512481546548,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.852048835965924</longitude>
+				<latitude>51.30512569740091</latitude>
+				<altitude>0</altitude>
+				<heading>0.0004182828546040849</heading>
+				<tilt>40.38579895286197</tilt>
+				<range>169.6761119664578</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.852193708333606,51.30500127716531,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.4.7</name>
+			<LookAt>
+				<longitude>-1.852048835965924</longitude>
+				<latitude>51.30512569740091</latitude>
+				<altitude>0</altitude>
+				<heading>0.0004182828546040849</heading>
+				<tilt>40.38579895286197</tilt>
+				<range>169.6761119664578</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.8524715248471,51.30477711010407,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Looking back from A342</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-1.852625000000037</longitude>
+				<latitude>51.30474699999996</latitude>
+				<altitude>2.500000001369834</altitude>
+				<heading>29.19469511481446</heading>
+				<tilt>90.60007506430432</tilt>
+				<roll>8.587497639951494e-013</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_man1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.852578397841924,51.3047727954916,108.7121637463452</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Looking ahead from A342</name>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-1.852830538965105</longitude>
+				<latitude>51.30479592116919</latitude>
+				<altitude>0</altitude>
+				<heading>167.6187410321852</heading>
+				<tilt>68.15151098866821</tilt>
+				<range>6.509905481289816</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_man</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.852804210094671,51.30482030044724,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.4.8</name>
+			<LookAt>
+				<longitude>-1.853277169317597</longitude>
+				<latitude>51.30406359895314</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0003391887666651864</heading>
+				<tilt>45.26073125715954</tilt>
+				<range>120.1829536201675</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.853663467865856,51.30371798355122,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.852515450949555</longitude>
+				<latitude>51.30459154956223</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002553135949402678</heading>
+				<tilt>45.26073889393507</tilt>
+				<range>121.3795901393511</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.852655294570949,51.30469619960291,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.852515450949555</longitude>
+				<latitude>51.30459154956223</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002553135949402678</heading>
+				<tilt>45.26073889393507</tilt>
+				<range>121.3795901393511</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.852833030809705,51.3046822390132,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.4.9</name>
+			<LookAt>
+				<longitude>-1.854317397410749</longitude>
+				<latitude>51.30290716629403</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001151049315644124</heading>
+				<tilt>45.26062418535123</tilt>
+				<range>137.936182282861</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.854634117272377,51.30246670272112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.5.0</name>
+			<LookAt>
+				<longitude>-1.854995246006074</longitude>
+				<latitude>51.30180245155908</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001680075606465136</heading>
+				<tilt>45.26058193543485</tilt>
+				<range>200.402420975973</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.855486113514304,51.30116416896709,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.855604806649964</longitude>
+				<latitude>51.30043827495577</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002155794870307029</heading>
+				<tilt>45.26033502334499</tilt>
+				<range>196.2527501044807</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.855728988369312,51.30063194312116,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.855604806649964</longitude>
+				<latitude>51.30043827495577</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002155794870307029</heading>
+				<tilt>45.26033502334499</tilt>
+				<range>196.2527501044807</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.856078981878206,51.30000874421694,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.5.1</name>
+			<LookAt>
+				<longitude>-1.855604806649964</longitude>
+				<latitude>51.30043827495577</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002155794870307029</heading>
+				<tilt>45.26033502334499</tilt>
+				<range>196.2527501044807</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.856235617842655,51.29984537764796,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.5.2</name>
+			<LookAt>
+				<longitude>-1.857010273681781</longitude>
+				<latitude>51.29873508646259</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003252653850194783</heading>
+				<tilt>45.2602972650325</tilt>
+				<range>190.3361817958941</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.857382208752992,51.2985406963151,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.857807091435589</longitude>
+				<latitude>51.29754109294648</latitude>
+				<altitude>0</altitude>
+				<heading>-0.00387450320950252</heading>
+				<tilt>45.26022017954047</tilt>
+				<range>178.2571879542392</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.858032080180034,51.297725921851,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.5.3</name>
+			<LookAt>
+				<longitude>-1.857807091435589</longitude>
+				<latitude>51.29754109294648</latitude>
+				<altitude>0</altitude>
+				<heading>-0.00387450320950252</heading>
+				<tilt>45.26022017954047</tilt>
+				<range>178.2571879542392</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.858297394988328,51.29728567675932,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.858744380959974</longitude>
+				<latitude>51.29659228246478</latitude>
+				<altitude>0</altitude>
+				<heading>0.002862343786968778</heading>
+				<tilt>42.86488574845063</tilt>
+				<range>154.166873070691</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.858713343619826,51.29649860716351,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.5.4</name>
+			<LookAt>
+				<longitude>-1.858876077186208</longitude>
+				<latitude>51.29625700213039</latitude>
+				<altitude>0</altitude>
+				<heading>0.002759568203855748</heading>
+				<tilt>42.86481913043682</tilt>
+				<range>143.2667637678804</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.858910756762489,51.295956442335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.859386589721563</longitude>
+				<latitude>51.29486005613983</latitude>
+				<altitude>0</altitude>
+				<heading>0.002361170317526072</heading>
+				<tilt>42.86459967795142</tilt>
+				<range>107.3595211485992</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.859241029290505,51.29527837867421,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.5.5</name>
+			<LookAt>
+				<longitude>-1.859386589721563</longitude>
+				<latitude>51.29486005613983</latitude>
+				<altitude>0</altitude>
+				<heading>0.002361170317526072</heading>
+				<tilt>42.86459967795142</tilt>
+				<range>107.3595211485992</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.859540215263561,51.29463539612442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.860271276794003</longitude>
+				<latitude>51.29375401105834</latitude>
+				<altitude>0</altitude>
+				<heading>0.001670792244172186</heading>
+				<tilt>42.8637746827773</tilt>
+				<range>160.1497137719782</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.859884854391367,51.29404534756101,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.5.6</name>
+			<LookAt>
+				<longitude>-1.860271276794003</longitude>
+				<latitude>51.29375401105834</latitude>
+				<altitude>0</altitude>
+				<heading>0.001670792244172186</heading>
+				<tilt>42.8637746827773</tilt>
+				<range>160.1497137719782</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.860534105396625,51.29332413997535,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.861206440827934</longitude>
+				<latitude>51.29248454243115</latitude>
+				<altitude>0</altitude>
+				<heading>0.0009410385164724975</heading>
+				<tilt>42.86376197837033</tilt>
+				<range>158.0709476198827</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.860956171229489,51.29281372966501,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.5.7</name>
+			<LookAt>
+				<longitude>-1.861462673974514</longitude>
+				<latitude>51.29251806676811</latitude>
+				<altitude>0</altitude>
+				<heading>0.0007410854121405112</heading>
+				<tilt>42.86375965763679</tilt>
+				<range>157.6912185795339</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.861450321754478,51.29205497346383,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.861699173485989</longitude>
+				<latitude>51.29116330969167</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005565434098403875</heading>
+				<tilt>42.86378899945232</tilt>
+				<range>162.4922827868544</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.862270405169114,51.29116690344316,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.861699173485989</longitude>
+				<latitude>51.29116330969167</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005565434098403875</heading>
+				<tilt>42.86378899945232</tilt>
+				<range>162.4922827868544</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.862223923316767,51.29104729952439,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Turn Left (SE)</name>
+			<LookAt>
+				<longitude>-1.861699173485989</longitude>
+				<latitude>51.29116330969167</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005565434098403875</heading>
+				<tilt>42.86378899945232</tilt>
+				<range>162.4922827868544</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_triangle</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.862264518761743,51.29108334841809,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.5.8</name>
+			<LookAt>
+				<longitude>-1.861699173485989</longitude>
+				<latitude>51.29116330969167</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005565434098403875</heading>
+				<tilt>42.86378899945232</tilt>
+				<range>162.4922827868544</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.861815385333694,51.29089451789864,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.5.9</name>
+			<LookAt>
+				<longitude>-1.860668853846453</longitude>
+				<latitude>51.29040634505331</latitude>
+				<altitude>0</altitude>
+				<heading>0.00136052499258852</heading>
+				<tilt>42.86381802773435</tilt>
+				<range>167.2420420869847</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.859759816234808,51.29019194999297,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.6.0</name>
+			<LookAt>
+				<longitude>-1.858099988832846</longitude>
+				<latitude>51.28955674964998</latitude>
+				<altitude>0</altitude>
+				<heading>0.003365059196438161</heading>
+				<tilt>42.86384470239899</tilt>
+				<range>171.6066849284256</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.857810349621191,51.28953115525507,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.6.1</name>
+			<LookAt>
+				<longitude>-1.856315979463523</longitude>
+				<latitude>51.28877083449144</latitude>
+				<altitude>0</altitude>
+				<heading>0.004757139758066279</heading>
+				<tilt>42.86380400269707</tilt>
+				<range>164.9471942309012</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.855844850470045,51.28886302874231,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.854784724811477</longitude>
+				<latitude>51.28832036553701</latitude>
+				<altitude>0</altitude>
+				<heading>0.005951983961966956</heading>
+				<tilt>42.863806403149</tilt>
+				<range>165.3399696777715</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.854600584407972,51.28847496870149,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.6.2</name>
+			<LookAt>
+				<longitude>-1.854784724811477</longitude>
+				<latitude>51.28832036553701</latitude>
+				<altitude>0</altitude>
+				<heading>0.005951983961966956</heading>
+				<tilt>42.863806403149</tilt>
+				<range>165.3399696777715</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.853822686036464,51.28819438539294,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.6.3</name>
+			<LookAt>
+				<longitude>-1.852531972105189</longitude>
+				<latitude>51.28738531618621</latitude>
+				<altitude>0</altitude>
+				<heading>0.007709802343252126</heading>
+				<tilt>42.86387941404077</tilt>
+				<range>177.2863760121006</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.851987231330821,51.28743784935301,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.6.4</name>
+			<LookAt>
+				<longitude>-1.850996105973385</longitude>
+				<latitude>51.28689246345967</latitude>
+				<altitude>0</altitude>
+				<heading>0.00890822292597742</heading>
+				<tilt>42.86393742107887</tilt>
+				<range>186.7777501462459</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.849999604292373,51.28660449974129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.6.5</name>
+			<LookAt>
+				<longitude>-1.848233848052139</longitude>
+				<latitude>51.28577898467419</latitude>
+				<altitude>0</altitude>
+				<heading>0.01106356146403672</heading>
+				<tilt>42.86397596680605</tilt>
+				<range>193.0847723073875</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.848118577195369,51.28581846245967,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.846671880452807</longitude>
+				<latitude>51.28503248969471</latitude>
+				<altitude>0</altitude>
+				<heading>0.01228231579193457</heading>
+				<tilt>42.86395818659951</tilt>
+				<range>190.175494485732</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.847093597845934,51.28539463421006,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.846671880452807</longitude>
+				<latitude>51.28503248969471</latitude>
+				<altitude>0</altitude>
+				<heading>0.01228231579193457</heading>
+				<tilt>42.86395818659951</tilt>
+				<range>190.175494485732</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.84680352251247,51.28524814399527,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.6.7</name>
+			<LookAt>
+				<longitude>-1.846671880452807</longitude>
+				<latitude>51.28503248969471</latitude>
+				<altitude>0</altitude>
+				<heading>0.01228231579193457</heading>
+				<tilt>42.86395818659951</tilt>
+				<range>190.175494485732</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.846282164818264,51.28504602042141,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.845208536371967</longitude>
+				<latitude>51.28449184827616</latitude>
+				<altitude>0</altitude>
+				<heading>0.01342410836654188</heading>
+				<tilt>42.86395955463959</tilt>
+				<range>190.3993380677256</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.845284030549307,51.28463600622131,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.6.8</name>
+			<LookAt>
+				<longitude>-1.845208536371967</longitude>
+				<latitude>51.28449184827616</latitude>
+				<altitude>0</altitude>
+				<heading>0.01342410836654188</heading>
+				<tilt>42.86395955463959</tilt>
+				<range>190.3993380677256</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.844355146425708,51.28427230918222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.6.9</name>
+			<LookAt>
+				<longitude>-1.84340370291631</longitude>
+				<latitude>51.28357550701155</latitude>
+				<altitude>0</altitude>
+				<heading>0.01483233597704705</heading>
+				<tilt>42.86391223931137</tilt>
+				<range>182.6574006308976</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.842532234530775,51.28349745334746,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>.</name>
+			<LookAt>
+				<longitude>-1.841483674296265</longitude>
+				<latitude>51.28288027778015</latitude>
+				<altitude>0</altitude>
+				<heading>0.01633043111349935</heading>
+				<tilt>42.86388245922851</tilt>
+				<range>177.7846437478969</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.840982493361971,51.28284701497342,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3.7.0</name>
+			<LookAt>
+				<longitude>-1.841483674296265</longitude>
+				<latitude>51.28288027778015</latitude>
+				<altitude>0</altitude>
+				<heading>0.01633043111349935</heading>
+				<tilt>42.86388245922851</tilt>
+				<range>177.7846437478969</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.840845401036549,51.28265581770059,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stage 3 End</name>
+			<LookAt>
+				<longitude>-1.840456447672393</longitude>
+				<latitude>51.28241172003433</latitude>
+				<altitude>0</altitude>
+				<heading>0.01713191372527978</heading>
+				<tilt>42.86387476940716</tilt>
+				<range>176.5264003218246</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_star</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.829497185308775,51.40826931957188,0</coordinates>
+				<coordinates>-1.840412975391348,51.28226521979536,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
